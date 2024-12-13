@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8683b7fa-380b-4241-8a9e-f63b7130f68e/resourceGroups/masrour/providers/Microsoft.Web/sites/account-manage-frontend",
+    "appService.deploySubpath": "."
+}

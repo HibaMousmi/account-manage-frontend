@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication App</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="formTitle">Login</h1>
+        <form id="authForm">
+            <input type="text" id="username" placeholder="Enter your username" required>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <button type="button" id="submitBtn">Login</button>
+        </form>
+        <div id="message" class="message"></div>
+        <div class="toggle-link" id="toggleForm">Vous n'avez pas de compte ?</div>
+    </div>
+
+    <div class="container user-list" id="adminSection" style="display: none;">
+        <h2>User List</h2>
+        <div id="users"></div>
+        <div class="logout">
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
